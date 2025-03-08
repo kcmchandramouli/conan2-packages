@@ -1,0 +1,19 @@
+sources:
+  "23.01":
+    Windows:
+      x86_64:
+        url: "https://www.7-zip.org/a/7z2301-x64.exe"
+        sha256: "26cb6e9f56333682122fafe79dbcdfd51e9f47cc7217dccd29ac6fc33b5598cd"
+    Linux:
+      x86_64:
+        url: "https://www.7-zip.org/a/7z2301-linux-x64.tar.xz"
+        sha256: "23babcab045b78016e443f862363e4ab63c77d75bc715c0b3463f6134cbcf318"
+  "24.09":
+    Windows:
+      x86_64:
+        url: "https://www.7-zip.org/a/7z2409-x64.exe"
+        sha256: "bdd1a33de78618d16ee4ce148b849932c05d0015491c34887846d431d29f308e"
+    Linux:
+      x86_64:
+        url: "https://www.7-zip.org/a/7z2409-linux-x64.tar.xz"
+        sha256: "914c7e20ad5ef8e4d3cf08620ff8894b28fe11b7eb99809d6930870fbe48a281"
