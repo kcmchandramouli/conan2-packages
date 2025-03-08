@@ -4,12 +4,12 @@ from conan.tools.files import get, copy
 required_conan_version = ">=2.10.0"
 
 class ApacheMavenConan(ConanFile):
-    name = "apache-maven"
-    version = "3.9.9"
-    license = ("Apache License 2.0")
-    homepage = "https://maven.apache.org/download.cgi"
-    description = "Apache Maven is a software project management and comprehension tool."
-    topics = ("maven", "build", "java")
+    name = "7zip"
+    version = "23.01"
+    license = ("LGPL-2.1-or-later", "BSD-3-Clause", "UnRAR")
+    homepage = "https://www.7-zip.org"
+    description = "7zip sources"
+    topics = ("zip", "unzip")
     settings = "os", "arch"
 
     def build(self):
