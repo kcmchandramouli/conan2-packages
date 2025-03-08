@@ -14,7 +14,7 @@ class ApacheMavenConan(ConanFile):
 
     def build(self):
         get(self, **self.conan_data["sources"][self.version][str(self.settings.os)][str(self.settings.arch)],
-            destination=self.source_folder, strip_root=True)
+            destination=self.source_folder, strip_root=False)
         
     def package(self):
         copy(self, "*", src=self.source_folder, dst=self.package_folder)

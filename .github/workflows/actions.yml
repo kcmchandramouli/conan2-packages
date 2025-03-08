@@ -47,6 +47,7 @@ jobs:
         run: |
           conan config install conan2_config
 
+    # Download the only the zip file.
       - name: Create maven conan packages
         run: |
           conan create recipes/apache-maven/binary --profile:build=Windows --profile:host=Windows
