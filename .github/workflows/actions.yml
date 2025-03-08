@@ -43,6 +43,10 @@ jobs:
         run: |
           conan --version
 
-      - name: check python version
+      - name: Conan Config
         run: |
-          ls -la
+          conan config install conan2_config
+
+      - name: Create conan packages
+        run: |
+          conan create recipes/apache-maven/binary --profile:build=Windows --profile:host=Windows
