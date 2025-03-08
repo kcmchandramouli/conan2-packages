@@ -53,4 +53,4 @@ jobs:
 
       - name: Create 7zip conan packages
         run: |
-          conan create recipes/7zip/binary --profile:build=Windows --profile:host=Windows
+          conan create recipes/7zip/binary --profile:build=Linux --profile:host=Linux
